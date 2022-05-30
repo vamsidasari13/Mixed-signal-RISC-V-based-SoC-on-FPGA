@@ -41,6 +41,10 @@ We used Icarus verilog for simulation of RVMYTH and PLL, the waveform is viewed 
 
 ![Output_in_iverilog](https://user-images.githubusercontent.com/67407412/171000547-9feaf788-9b71-4284-953a-763c227b08a5.png)
 
+Analog Waveform
+
+![Analog waveform in iverilog](https://user-images.githubusercontent.com/67407412/171039379-c27465ef-8434-4b48-9455-08530c0eedaa.png)
+
 
 ## FPGA Implementation
 
@@ -50,6 +54,13 @@ Implementation in Xilinx Vivado. Here the Main Clock having 30ns time period and
 
 ![Screenshot (976)](https://user-images.githubusercontent.com/67407412/171004296-f074f4c9-72f9-422e-9f2e-f05bc9063eaa.png)
 
+![Screenshot (983)](https://user-images.githubusercontent.com/67407412/171048271-f5101318-bb87-4c26-9790-ccbb1dea0588.png)
+
 Design Timing Summary
 
 ![Screenshot (978)](https://user-images.githubusercontent.com/67407412/171005267-1c2378f7-5df9-4e1d-b132-627cdf737afd.png)
+
+Design Rules
+
+![Design rules](https://user-images.githubusercontent.com/67407412/171039639-e689af71-b632-4900-bead-7bdd3edde386.jpg)
+
