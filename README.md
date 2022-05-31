@@ -48,19 +48,36 @@ Analog Waveform
 
 ## FPGA Implementation
 
+### Steps
+
+1. Add rvmyth.v, clk_gate.v, top_soc.v to the design.
+2. Now generate the PLL and TLA IP's from xilinx IP catalog.
+3. Add the testbench as simulation source.
+4. Nowe run the behavioral simulation and verify the functionality.
+5. For synthesis ,add the constraints file as contriant source.
+6. Run synthesis and later go with the implementation.
+7. Now check for setup and hold violations of any and later generate the bitstream and program the FPGA.
+
+Block Diagram
+
 ![Implementation in Xilinx Vivado](https://user-images.githubusercontent.com/67407412/171003616-e7fca261-42a1-439a-9209-4576a76acbaa.jpg)
 
 Implementation in Xilinx Vivado. Here the Main Clock having 30ns time period and the core clock is having 10ns time period.
 
 ![Screenshot (976)](https://user-images.githubusercontent.com/67407412/171004296-f074f4c9-72f9-422e-9f2e-f05bc9063eaa.png)
 
+![Analog waveform in vivado](https://user-images.githubusercontent.com/67407412/171098237-ee21b982-5b41-4dfa-987f-2e2811f8ef1e.png)
+
+
 ![Screenshot (983)](https://user-images.githubusercontent.com/67407412/171048271-f5101318-bb87-4c26-9790-ccbb1dea0588.png)
+
+Design Rules
+
+![Design rules](https://user-images.githubusercontent.com/67407412/171039639-e689af71-b632-4900-bead-7bdd3edde386.jpg)
 
 Design Timing Summary
 
 ![Screenshot (978)](https://user-images.githubusercontent.com/67407412/171005267-1c2378f7-5df9-4e1d-b132-627cdf737afd.png)
 
-Design Rules
 
-![Design rules](https://user-images.githubusercontent.com/67407412/171039639-e689af71-b632-4900-bead-7bdd3edde386.jpg)
 
